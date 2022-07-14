@@ -55,7 +55,7 @@ def count_down(count):
 window = Tk()
 window.title("Pomodoro Timer")
 window.config(padx=100, pady=50, bg=YELLOW)
-window.after(1000, )
+window.iconbitmap("clock.ico")
 
 label = Label(text="Timer", font=(FONT_NAME, 30, "bold"), fg=GREEN, bg=YELLOW, highlightthickness=0)
 label.grid(column=1, row=0)
